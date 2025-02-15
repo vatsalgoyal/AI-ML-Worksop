@@ -3,84 +3,175 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI/ML Weekend Workshop - Cyber Hub, Gurgaon</title>
+    <title>AI/ML Weekend Workshop 2025-26 | Cyber Hub Gurgaon</title>
+    <meta name="description" content="Join India's premier AI/ML weekend workshop at Cyber Hub Gurgaon. Year-long program from 2025-2026 with monthly mandatory sessions.">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <style>
-        body { font-family: 'Poppins', sans-serif; margin: 0; padding: 0; background: #121212; color: white; text-align: center; }
-        header { background: #1e1e1e; padding: 20px; box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1); }
-        .container { width: 80%; margin: auto; padding: 20px; }
-        .workshop-details, .about-section, .sponsors, .deep-dive { background: #1c1c1c; padding: 30px; margin: 20px 0; border-radius: 10px; }
-        form { background: #222; padding: 25px; border-radius: 10px; box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1); }
-        input, select, button { padding: 12px; margin: 10px; width: 90%; border-radius: 5px; border: none; }
-        button { background: #ff9800; color: white; cursor: pointer; font-size: 16px; }
-        button:hover { background: #e68900; }
-        .image-gallery { display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; margin-top: 20px; }
-        .image-gallery img { width: 30%; border-radius: 10px; }
-        .sponsors img { width: 150px; margin: 10px; }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>🚀 AI/ML Weekend Workshop</h1>
-        <p>Powered by TechGenius AI, FutureMind Labs, NeuralNet Solutions, and QuantumAI Research</p>
-    </header>
-    <div class="container">
-        <div class="about-section">
-            <h2>Why Attend This Workshop?</h2>
-            <p>AI and Machine Learning are revolutionizing industries. This workshop offers in-depth learning, real-world projects, and networking opportunities with industry leaders.</p>
-            <p>Master deep learning, NLP, computer vision, and AI-powered automation through interactive sessions and hands-on experience.</p>
-        </div>
-        <div class="deep-dive">
-            <h2>Workshop Focus Areas</h2>
-            <h3>🤖 Google: AI for Real-World Applications</h3>
-            <p>Explore AI-driven products like Google Assistant, Translate, and TensorFlow. Learn how AI is shaping consumer technology.</p>
-            <h3>💡 Microsoft: AI in Enterprise Solutions</h3>
-            <p>Delve into Azure AI services, automation, and cloud-based machine learning for scalable business solutions.</p>
-            <h3>📊 IBM: AI & Data Science</h3>
-            <p>Learn about IBM Watson, AI-driven decision-making, and the intersection of AI with big data.</p>
-            <h3>🚀 Startups & Innovation</h3>
-            <p>Understand how AI startups are pushing boundaries in autonomous systems, healthcare, and fintech.</p>
-        </div>
-        <div class="image-gallery">
-            <img src="https://source.unsplash.com/400x300/?artificial-intelligence" alt="AI ML Image 1">
-            <img src="https://source.unsplash.com/400x300/?machine-learning" alt="AI ML Image 2">
-            <img src="https://source.unsplash.com/400x300/?technology" alt="AI ML Image 3">
-        </div>
-        <div class="workshop-details">
-            <h2>Join Our AI/ML Workshop in Cyber Hub, Gurgaon</h2>
-            <p>🌟 Industry experts-led sessions</p>
-            <p>💡 Hands-on coding exercises</p>
-            <p>🤝 Networking with AI professionals</p>
-            <p><strong>Mandatory attendance</strong> once or twice a month for selected candidates.</p>
-        </div>
-        <div class="sponsors">
-            <h2>Our Sponsors</h2>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft">
-            <img src="https://www.pngplay.com/wp-content/uploads/13/Google-Logo-PNG-Photo-Image.png" alt="Google">
-            <img src="https://purepng.com/public/uploads/large/purepng.com-ibm-logologobrand-logoiconslogos-251519939176ka7y8.png" alt="IBM">
-        </div>
-        <h2>Register for Selection</h2>
-        <form id="registrationForm">
-            <input type="text" id="name" placeholder="Your Name" required>
-            <input type="email" id="email" placeholder="Your Email" required>
-            <input type="text" id="experience" placeholder="Experience in AI/ML (years)" required>
-            <button type="button" onclick="predictSelection()">Apply Now</button>
-        </form>
-        <p id="result"></p>
-    </div>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
     <script>
-        function predictSelection() {
-            const experience = document.getElementById('experience').value;
-            let selectionProbability = Math.random();
-            
-            if (experience >= 2) selectionProbability += 0.3; 
-            
-            if (selectionProbability > 0.5) {
-                document.getElementById('result').innerText = "🎉 Congratulations! You are selected for the AI/ML Workshop.";
-            } else {
-                document.getElementById('result').innerText = "Thank you for applying. You may be considered for the next batch.";
-            }
-        }
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
     </script>
+</head>
+<body class="bg-gray-900 text-white">
+    <!-- Navigation -->
+    <nav class="bg-gray-800 py-4">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold">AI/ML Gurukul</a>
+            <div class="space-x-6">
+                <a href="#schedule" class="hover:text-blue-400">Schedule</a>
+                <a href="#curriculum" class="hover:text-blue-400">Curriculum</a>
+                <a href="#mentors" class="hover:text-blue-400">Mentors</a>
+                <a href="#register" class="bg-blue-600 px-4 py-2 rounded-lg hover:bg-blue-700">Register</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="text-center py-20 bg-gradient-to-r from-blue-900 to-purple-900">
+        <div class="container mx-auto px-6">
+            <h1 class="text-5xl font-bold mb-6 animate-pulse">
+                🚀 AI & ML Weekend Workshop 2025-26
+            </h1>
+            <p class="text-xl text-gray-300 mb-8">
+                Master Artificial Intelligence & Machine Learning at Cyber Hub, Gurgaon
+            </p>
+            <div class="flex justify-center space-x-4">
+                <a href="#register" class="bg-blue-600 px-8 py-3 rounded-lg hover:bg-blue-700">
+                    Enroll Now <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+                <a href="#curriculum" class="border border-blue-600 px-8 py-3 rounded-lg hover:bg-blue-600">
+                    View Curriculum
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Key Features -->
+    <section class="py-16">
+        <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-gray-800 p-6 rounded-xl">
+                <i class="fas fa-calendar-alt text-blue-400 text-3xl mb-4"></i>
+                <h3 class="text-xl font-bold mb-2">Weekend Sessions</h3>
+                <p class="text-gray-400">Every Saturday & Sunday<br>10 AM - 4 PM</p>
+            </div>
+            <div class="bg-gray-800 p-6 rounded-xl">
+                <i class="fas fa-certificate text-green-400 text-3xl mb-4"></i>
+                <h3 class="text-xl font-bold mb-2">Certification</h3>
+                <p class="text-gray-400">Dual Certification from Industry Partners</p>
+            </div>
+            <div class="bg-gray-800 p-6 rounded-xl">
+                <i class="fas fa-users text-purple-400 text-3xl mb-4"></i>
+                <h3 class="text-xl font-bold mb-2">Expert Mentors</h3>
+                <p class="text-gray-400">1:5 Mentor-Student Ratio</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Program Timeline -->
+    <section id="schedule" class="py-16 bg-gray-800">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-8 text-center">Program Timeline</h2>
+            <div class="relative">
+                <!-- Timeline items -->
+                <div class="border-l-4 border-blue-600 ml-4 space-y-12 py-8">
+                    <div class="relative pl-8">
+                        <div class="absolute w-4 h-4 bg-blue-600 rounded-full -left-[10px]"></div>
+                        <h3 class="text-xl font-bold">Phase 1: Foundation (3 Months)</h3>
+                        <p class="text-gray-400">Python, Statistics, Linear Algebra</p>
+                    </div>
+                    <div class="relative pl-8">
+                        <div class="absolute w-4 h-4 bg-green-600 rounded-full -left-[10px]"></div>
+                        <h3 class="text-xl font-bold">Phase 2: Core ML (6 Months)</h3>
+                        <p class="text-gray-400">Algorithms, Model Building, Deployment</p>
+                    </div>
+                    <div class="relative pl-8">
+                        <div class="absolute w-4 h-4 bg-purple-600 rounded-full -left-[10px]"></div>
+                        <h3 class="text-xl font-bold">Phase 3: Specialization (9 Months)</h3>
+                        <p class="text-gray-400">NLP, Computer Vision, Advanced AI</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Form -->
+    <section id="register" class="py-16">
+        <div class="container mx-auto px-6 max-w-2xl">
+            <h2 class="text-3xl font-bold mb-8 text-center">Join the AI Revolution</h2>
+            <form class="bg-gray-800 p-8 rounded-xl">
+                <div class="mb-6">
+                    <label class="block mb-2">Full Name</label>
+                    <input type="text" class="w-full p-3 rounded-lg bg-gray-700" required>
+                </div>
+                <div class="mb-6">
+                    <label class="block mb-2">Email Address</label>
+                    <input type="email" class="w-full p-3 rounded-lg bg-gray-700" required>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block mb-2">Experience Level</label>
+                        <select class="w-full p-3 rounded-lg bg-gray-700">
+                            <option>Beginner</option>
+                            <option>Intermediate</option>
+                            <option>Advanced</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block mb-2">Preferred Days</label>
+                        <select class="w-full p-3 rounded-lg bg-gray-700">
+                            <option>Saturday</option>
+                            <option>Sunday</option>
+                            <option>Both Days</option>
+                        </select>
+                    </div>
+                </div>
+                <button class="w-full bg-blue-600 py-3 rounded-lg mt-6 hover:bg-blue-700">
+                    Secure Your Seat Now
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h4 class="text-lg font-bold mb-4">AI/ML Gurukul</h4>
+                    <p class="text-gray-400">Cyber Hub, Gurgaon<br>Delhi NCR, India</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-blue-400">Curriculum</a></li>
+                        <li><a href="#" class="hover:text-blue-400">Mentors</a></li>
+                        <li><a href="#" class="hover:text-blue-400">FAQ</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Contact</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>info@aimlgurukul.in</li>
+                        <li>+91 98765 43210</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Follow Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-blue-400 hover:text-blue-300"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-blue-400 hover:text-blue-300"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="text-blue-400 hover:text-blue-300"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>© 2024 AI/ML Gurukul. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
