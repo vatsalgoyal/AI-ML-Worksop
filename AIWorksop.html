@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI/ML Weekend Workshop - Cyber Hub, Gurgaon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body { font-family: 'Poppins', sans-serif; margin: 0; padding: 0; background: #121212; color: white; text-align: center; }
+        header { background: #1e1e1e; padding: 20px; box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1); }
+        .container { width: 80%; margin: auto; padding: 20px; }
+        .workshop-details, .about-section, .sponsors, .deep-dive { background: #1c1c1c; padding: 30px; margin: 20px 0; border-radius: 10px; }
+        form { background: #222; padding: 25px; border-radius: 10px; box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1); }
+        input, select, button { padding: 12px; margin: 10px; width: 90%; border-radius: 5px; border: none; }
+        button { background: #ff9800; color: white; cursor: pointer; font-size: 16px; }
+        button:hover { background: #e68900; }
+        .image-gallery { display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; margin-top: 20px; }
+        .image-gallery img { width: 30%; border-radius: 10px; }
+        .sponsors img { width: 150px; margin: 10px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🚀 AI/ML Weekend Workshop</h1>
+        <p>Powered by TechGenius AI, FutureMind Labs, NeuralNet Solutions, and QuantumAI Research</p>
+    </header>
+    <div class="container">
+        <div class="about-section">
+            <h2>Why Attend This Workshop?</h2>
+            <p>AI and Machine Learning are revolutionizing industries. This workshop offers in-depth learning, real-world projects, and networking opportunities with industry leaders.</p>
+            <p>Master deep learning, NLP, computer vision, and AI-powered automation through interactive sessions and hands-on experience.</p>
+        </div>
+        <div class="deep-dive">
+            <h2>Workshop Focus Areas</h2>
+            <h3>🤖 Google: AI for Real-World Applications</h3>
+            <p>Explore AI-driven products like Google Assistant, Translate, and TensorFlow. Learn how AI is shaping consumer technology.</p>
+            <h3>💡 Microsoft: AI in Enterprise Solutions</h3>
+            <p>Delve into Azure AI services, automation, and cloud-based machine learning for scalable business solutions.</p>
+            <h3>📊 IBM: AI & Data Science</h3>
+            <p>Learn about IBM Watson, AI-driven decision-making, and the intersection of AI with big data.</p>
+            <h3>🚀 Startups & Innovation</h3>
+            <p>Understand how AI startups are pushing boundaries in autonomous systems, healthcare, and fintech.</p>
+        </div>
+        <div class="image-gallery">
+            <img src="https://source.unsplash.com/400x300/?artificial-intelligence" alt="AI ML Image 1">
+            <img src="https://source.unsplash.com/400x300/?machine-learning" alt="AI ML Image 2">
+            <img src="https://source.unsplash.com/400x300/?technology" alt="AI ML Image 3">
+        </div>
+        <div class="workshop-details">
+            <h2>Join Our AI/ML Workshop in Cyber Hub, Gurgaon</h2>
+            <p>🌟 Industry experts-led sessions</p>
+            <p>💡 Hands-on coding exercises</p>
+            <p>🤝 Networking with AI professionals</p>
+            <p><strong>Mandatory attendance</strong> once or twice a month for selected candidates.</p>
+        </div>
+        <div class="sponsors">
+            <h2>Our Sponsors</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Google_LLC_logo.svg" alt="Google">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/IBM_logo.svg" alt="IBM">
+        </div>
+        <h2>Register for Selection</h2>
+        <form id="registrationForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <input type="text" id="experience" placeholder="Experience in AI/ML (years)" required>
+            <button type="button" onclick="predictSelection()">Apply Now</button>
+        </form>
+        <p id="result"></p>
+    </div>
+    <script>
+        function predictSelection() {
+            const experience = document.getElementById('experience').value;
+            let selectionProbability = Math.random();
+            
+            if (experience >= 2) selectionProbability += 0.3; 
+            
+            if (selectionProbability > 0.5) {
+                document.getElementById('result').innerText = "🎉 Congratulations! You are selected for the AI/ML Workshop.";
+            } else {
+                document.getElementById('result').innerText = "Thank you for applying. You may be considered for the next batch.";
+            }
+        }
+    </script>
+</body>
+</html>
